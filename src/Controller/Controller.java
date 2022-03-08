@@ -116,10 +116,16 @@ try {
 }
 
 public void SaveFile() {
+	if(Books.isEmpty())	{
+		
+		JOptionPane.showMessageDialog(null, "PLEASE, INSERT DATA");
+	}else if(Books.isEmpty()==false){
+		CreateFile(File) ;
+		
+		appendToFile(File,Books.toString());	
+		
+	}
 
-CreateFile(File) ;
-	
-appendToFile(File,Books.toString());	
 	
 }
 

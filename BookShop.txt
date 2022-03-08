@@ -1,13 +1,13 @@
 [
 Publication  
-Number of publication=60
-title=tyy
+Number of publication=400
+title=te
 Book
-Amount of pages=300
+Amount of pages=600
 Price of the book=500.0, 
 Publication  
-Number of publication=80
-title=WWE
+Number of publication=200
+title=re
 Book
-Amount of pages=60
-Price of the book=700.0]
+Amount of pages=700
+Price of the book=200.0]
